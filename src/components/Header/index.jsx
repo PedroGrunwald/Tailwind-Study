@@ -4,7 +4,7 @@ import Avatar from "./avatar";
 
 export default function Header() {
   return (
-    <header className="px-4 xl:px-6 h-16 lg:h-20 flex items-center justify-between gap-6 md:gap-16 xl:gap-32 bg-zinc-100 dark:bg-zinc-800">
+    <header className="px-4 xl:px-6 h-16 lg:h-20 flex items-center justify-between gap-6 md:gap-16 xl:gap-32 bg-gray-100 dark:bg-gray-800">
       <Logo />
       <SearchForm />
       <Avatar />

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Header from "./components/Header";
 import Container from "./components/container";
+import Sidebar from "./components/Sidebar/sidebar";
 
 export default function App() {
   const [count, setCount] = useState(0);
@@ -9,6 +10,8 @@ export default function App() {
     <>
       <Header />
       <Container>
+        <div className="flex flex-col md:flex-row gap-2 xl:gap-4 h-full relative ">
+        <Sidebar/>
         <h1 className="text-3xl text-center text-red-600">
           Ready to start with Tailwind!
         </h1>
@@ -21,6 +24,7 @@ export default function App() {
         >
           count is {count}
         </button>
+        </div>
       </Container>
     </>
   );
