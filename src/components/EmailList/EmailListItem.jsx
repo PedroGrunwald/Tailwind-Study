@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 // eslint-disable-next-line react/prop-types
 import Avatar from "./Avatar";
-
+    
 export default function EmailListItem({ email, onClick }) {
   return (
     <article
